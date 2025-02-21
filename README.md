@@ -37,8 +37,6 @@ Backend: Java
 
 Database: SQL (MySQL)
 
-Other: JavaFX (optional), JDBC
-
 # Getting Started
 To get started with BibliotekaPS, you need to have Java and MySQL installed on your machine. Follow the steps below to set up the project locally.
 Prerequisites
@@ -54,16 +52,22 @@ git clone https://github.com/Braxon2/BibliotekaPS.git
 cd BibliotekaPS
 
 Set up the database:
+
 Create a MySQL database named biblioteka.
+
 Make tables in database for: bibliotekar,clan, user_profile,primerak,stavka_iznajmljivanja,iznajmljivanje
 
 Make a file dbconfig.properties with its content:
-password=password_for_database
-port=7777
-user=user_of_database
-url=url_connection_to_database
-Configure the database connection:
 
+password=password_for_database
+
+port=7777
+
+user=user_of_database
+
+url=url_connection_to_database
+
+Configure the database connection:
 
 
 # Run the application
